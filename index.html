@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Full Stack Developer & YouTuber</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <span>&lt;</span>Wan The BB<span>/&gt;</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#youtube">YouTube</a></li>
+        <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><a class="nav-link nav-cta" href="#contact">Hubungi Saya</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-glow"></div>
+  <div class="hero-glow-teal"></div>
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <p class="hero-eyebrow">// Full Stack Developer & YouTuber</p>
+        <h1 class="hero-title">
+          Membangun<br/>
+          <span class="accent-purple">produk digital</span><br/>
+          & <span class="accent-teal">konten nyata</span>
+        </h1>
+        <p class="hero-subtitle">
+          Saya adalah Web Developer yang berfokus pada pengembangan 
+          aplikasi web modern, aman, dan responsif. Selain mengembangkan solusi 
+          digital, saya juga seorang 
+          content creator di YouTube yang membagikan konten seputar dunia game dan hiburan.
+        </p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="#portfolio" class="btn-primary-custom">
+            <i class="fas fa-code"></i> Lihat Karya Saya
+          </a>
+          <a href="https://www.youtube.com/@WanTheBbChannel" target="_blank" class="btn-outline-custom">
+            <i class="fab fa-youtube"></i> Channel YouTube
+          </a>
+          <a href="https://saweria.co/Irwanfirdaus/toko-top-up" target="_blank" class="btn-outline-custom">
+              <img src="assets/img/saweria.png" alt="Saweria" class="icon-saweria">
+              WTB STORE
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Proyek Selesai</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">276</div>
+            <div class="stat-label">Subscriber YouTube</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">1.5th</div>
+            <div class="stat-label">Tahun Coding</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+    <div class="hero-avatar-wrap">
+        <div class="hero-avatar-ring">
+            <div class="hero-avatar">
+                <img src="assets/img/foto_irwan.jpg" alt="Muhammad Irwan Firdaus" class="profile-img">
+            </div>
+        </div>
+
+        <div class="hero-badge">
+            <div class="badge-dot"></div>
+            Available for work
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ABOUT -->
+<section class="section-pad" id="about">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <div class="col-lg-5 fade-up">
+        <p class="section-eyebrow">// about_me</p>
+        <h2 class="section-title">Saya developer,<br/> bukan sekadar coder</h2>
+        <p class="section-desc mb-4">
+          Dengan pengalaman lebih dari 1 tahun di dunia pengembangan web, saya tidak hanya menulis kode — saya merancang solusi yang bisa berjalan di skala besar, mudah dipelihara, dan menyenangkan untuk digunakan.
+        </p>
+        <p class="section-desc">
+          Di luar pekerjaan sebagai Web Developer, saya aktif sebagai YouTuber Gaming dengan membuat video dan melakukan live streaming. 
+          Saya menikmati proses membangun komunitas, berbagi pengalaman bermain, dan menghadirkan konten yang informatif sekaligus menghibur.
+        </p>
+        <div class="mt-4">
+          <span class="about-tag"><i class="fas fa-map-marker-alt"></i> Banjarbaru, Indonesia</span>
+          <span class="about-tag"><i class="fas fa-laptop-code"></i> Full Stack Dev</span>
+          <span class="about-tag teal"><i class="fab fa-youtube"></i> YouTuber</span>
+          <span class="about-tag teal"><i class="fas fa-graduation-cap"></i> Self-taught</span>
+          <span class="about-tag"><i class="fas fa-coffee"></i> Coffee addict</span>
+        </div>
+      </div>
+      <div class="col-lg-7 fade-up">
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="about-card text-center py-4">
+              <div style="font-size:2.5rem;margin-bottom:0.75rem;">⚡</div>
+              <div style="font-weight:700;font-size:1.1rem;margin-bottom:0.4rem;">Fast & Efficient</div>
+              <div style="font-size:0.85rem;color:var(--text-secondary);">Mengutamakan performa dan optimisasi di setiap proyek</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about-card text-center py-4">
+              <div style="font-size:2.5rem;margin-bottom:0.75rem;">🎯</div>
+              <div style="font-weight:700;font-size:1.1rem;margin-bottom:0.4rem;">Problem Solver</div>
+              <div style="font-size:0.85rem;color:var(--text-secondary);">Senang memecahkan masalah teknis yang kompleks</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about-card text-center py-4">
+              <div style="font-size:2.5rem;margin-bottom:0.75rem;">📡</div>
+              <div style="font-weight:700;font-size:1.1rem;margin-bottom:0.4rem;">Always Learning</div>
+              <div style="font-size:0.85rem;color:var(--text-secondary);">Selalu update dengan teknologi terbaru di industri</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about-card text-center py-4">
+              <div style="font-size:2.5rem;margin-bottom:0.75rem;">🤝</div>
+              <div style="font-weight:700;font-size:1.1rem;margin-bottom:0.4rem;">Team Player</div>
+              <div style="font-size:0.85rem;color:var(--text-secondary);">Kolaboratif dan komunikatif dalam setiap tim</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- SKILLS -->
+<section class="section-pad" id="skills">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <p class="section-eyebrow">// tech_stack</p>
+      <h2 class="section-title">Senjata saya sehari-hari</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6 fade-up">
+        <div class="skill-group">
+          <div class="skill-category">Frontend</div>
+          <div>
+            <span class="skill-pill"><span class="dot dot-purple"></span> Bootstrap</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 fade-up">
+        <div class="skill-group">
+          <div class="skill-category">Backend</div>
+          <div>
+            <span class="skill-pill"><span class="dot dot-teal"></span> REST API</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 fade-up">
+        <div class="skill-group">
+          <div class="skill-category">Database & Cloud</div>
+          <div>
+            <span class="skill-pill"><span class="dot dot-orange"></span> MySQL</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 fade-up">
+        <div class="skill-group">
+          <div class="skill-category">Tools & Content</div>
+          <div>
+            <span class="skill-pill"><span class="dot dot-orange"></span> Git & GitHub</span>
+            <span class="skill-pill"><span class="dot dot-blue"></span> Figma</span>
+            <span class="skill-pill"><span class="dot dot-teal"></span> OBS Studio</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- PORTFOLIO -->
+<section class="section-pad" id="portfolio">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <p class="section-eyebrow">// my_projects</p>
+      <h2 class="section-title">Proyek pilihan saya</h2>
+      <p class="section-desc mx-auto">Beberapa karya saya dan tim saya.</p>
+    </div>
+    <div class="row g-4">
+      <!-- Project 1 -->
+      <div class="col-lg-4 col-md-6 fade-up">
+        <div class="project-card d-flex flex-column">
+          <div class="project-thumb thumb-purple">📊</div>
+          <div class="project-body flex-grow-1">
+            <div class="project-type">Sistem Informasi</div>
+            <div class="project-title">E-Wasdal Gatrik</div>
+            <div class="project-desc">Sistem informasi pengawasan pada bidang kelistrikan di Dinas ESDM Kalimantan Selatan</div>
+            <div class="project-tags">
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-lg-4 col-md-6 fade-up">
+        <div class="project-card d-flex flex-column">
+          <div class="project-thumb thumb-teal">📊</div>
+          <div class="project-body flex-grow-1">
+            <div class="project-type">Sistem Informasi</div>
+            <div class="project-title">Sippinda</div>
+            <div class="project-desc">Aplikasi berbasis website untuk pengawasan perusahaan oleh Dinas Perindustrian Kalimantan Selatan.</div>
+            <div class="project-tags">
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">Chart.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5 fade-up">
+      <a href="https://github.com/MuhammadIrwanFirdaus" target="_blank" class="btn-outline-custom">
+        <i class="fab fa-github"></i> Lihat Semua di GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- YOUTUBE -->
+<section class="section-pad" id="youtube">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <p class="section-eyebrow">// Gaming Content</p>
+      <h2 class="section-title">Video & Live Streaming</h2>
+      <p class="section-desc mx-auto">Temukan gameplay terbaru, live streaming,
+         tips bermain, serta berbagai momen seru yang saya bagikan untuk para pecinta game.</p>
+    </div>
+
+    <!-- Channel Banner -->
+    <div class="yt-channel-banner mb-5 fade-up">
+      <div class="yt-channel-icon">
+        <i class="fab fa-youtube"></i>
+      </div>
+      <div class="flex-grow-1">
+        <div class="yt-channel-name">WanTheBb</div>
+        <div class="yt-channel-sub">276+ subscriber · 200+ video · Live setiap minggu</div>
+        <div style="font-size:0.85rem;color:var(--text-secondary);margin-top:0.4rem;">
+            Channel gaming yang menghadirkan gameplay, live streaming, dan berbagai konten hiburan untuk para pecinta game.
+        </div>
+    </div>
+      <a href="https://www.youtube.com/@WanTheBbChannel" target="_blank" class="btn-yt">
+        <i class="fab fa-youtube"></i> Subscribe
+      </a>
+    </div>
+
+    <!-- Video Grid -->
+    <div class="row g-3">
+
+    <!-- Video 1 -->
+    <div class="col-lg-4 col-md-6 fade-up">
+        <a href="https://youtu.be/c8oBU2KhklA?si=Psx6fYDRWmnw1Frb" target="_blank" class="text-decoration-none">
+            <div class="yt-card">
+                <div class="yt-thumb">
+                    🎮
+                    <div class="yt-play">
+                        <div class="yt-play-btn">
+                            <i class="fas fa-play ms-1"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="yt-body">
+                    <div class="yt-title">(PS2) Disuruh Cari Krystal lagi dong, Naruto : Ultimate Ninja 3</div>
+                    <div class="yt-meta">
+                        <span><i class="fas fa-eye me-1"></i>100++ views</span>
+                        <span><i class="fas fa-clock me-1"></i>15 menit</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="col-lg-4 col-md-6 fade-up">
+        <a href="https://youtu.be/OfYDwmWOEG4?si=rPpOKgmm1_2U50dV" target="_blank" class="text-decoration-none">
+            <div class="yt-card">
+                <div class="yt-thumb">
+                    🎮
+                    <div class="yt-play">
+                        <div class="yt-play-btn">
+                            <i class="fas fa-play ms-1"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="yt-body">
+                    <div class="yt-title">
+                  SAMPAI BOSEN MAIN NARUTO, Naruto : Ultimate Ninja 3
+                    </div>
+
+                    <div class="yt-meta">
+                        <span><i class="fas fa-eye me-1"></i>200++ views</span>
+                        <span><i class="fas fa-clock me-1"></i>18 Menit</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="col-lg-4 col-md-6 fade-up">
+        <a href="https://youtu.be/M_TnTTHczKI?si=LQSDOWdvMdof_6r3" target="_blank" class="text-decoration-none">
+            <div class="yt-card">
+                <div class="yt-thumb">
+                    🎮
+                    <div class="yt-play">
+                        <div class="yt-play-btn">
+                            <i class="fas fa-play ms-1"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="yt-body">
+                    <div class="yt-title">
+                        Lanjut Musou Mode zhou Yu Dynasty Warriors 6
+                    </div>
+
+                    <div class="yt-meta">
+                        <span><i class="fas fa-eye me-1"></i>100++ views</span>
+                        <span><i class="fas fa-clock me-1"></i>13 menit</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- CONTACT -->
+<section class="section-pad" id="contact">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <p class="section-eyebrow">// get_in_touch</p>
+      <h2 class="section-title">Mari bekerja sama</h2>
+      <p class="section-desc mx-auto">Ada proyek menarik? Atau sekedar ingin diskusi soal teknologi? Pintu saya selalu terbuka.</p>
+    </div>
+    <div class="row g-4">
+      <!-- Info -->
+      <div class="col-lg-4 fade-up">
+        <div class="contact-card h-100">
+          <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:1.5rem;">Info Kontak</h3>
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">irwanfirdaus107@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon teal"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <div class="contact-label">Lokasi</div>
+              <div class="contact-value">Banjarbaru, Kalsel</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <div class="contact-label">Response Time</div>
+              <div class="contact-value">Dalam 24 jam</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon teal"><i class="fas fa-briefcase"></i></div>
+            <div>
+              <div class="contact-label">Status</div>
+              <div class="contact-value" style="color:var(--teal-light);">Open for freelance</div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/MuhammadIrwanFirdaus" target="_blank" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/irwan-firdaus-2751712b1/"target="_blank" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@WanTheBbChannel" class="social-btn" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/__irwn.06__/" target="_blank" class="social-btn" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Form -->
+      <div class="col-lg-8 fade-up">
+  <div class="contact-card">
+    <h3>Kirim Pesan</h3>
+
+    <div class="contact-form">
+
+      <div class="row g-3">
+
+        <div class="col-md-6">
+          <input type="text" id="name" class="form-control" placeholder="Nama Lengkap">
+        </div>
+
+        <div class="col-md-6">
+          <input type="email" id="email" class="form-control" placeholder="Email">
+        </div>
+
+        <div class="col-12">
+          <input type="text" id="subject" class="form-control" placeholder="Subjek">
+        </div>
+
+        <div class="col-12">
+          <textarea id="message" class="form-control" rows="5" placeholder="Pesan"></textarea>
+        </div>
+
+        <div class="col-12">
+          <button type="button" id="sendBtn" onclick="sendEmail()" class="btn-primary-custom w-100">
+            Kirim Pesan
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>Dirancang & dibangun dengan <span>♥</span> oleh <span>WanTheBB</span> — <span id="currentYear"></span></p>
+    <p style="margin-top:0.4rem;font-size:0.75rem;">Full Stack Developer & YouTuber dari Samarinda, Indonesia 🇮🇩</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
+<script>
+  // Scroll animations
+  const fadeEls = document.querySelectorAll('.fade-up');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  fadeEls.forEach(el => observer.observe(el));
+
+  // Navbar active link highlight
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(sec => {
+      if (window.scrollY >= sec.offsetTop - 100) current = sec.getAttribute('id');
+    });
+    navLinks.forEach(link => {
+      link.style.color = '';
+      if (link.getAttribute('href') === '#' + current) link.style.color = 'var(--text-primary)';
+    });
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+  const button = document.getElementById("sendBtn");
+  emailjs.init("zqJhECRv45z2Wv1rS");
+
+  function sendEmail() {
+    // ambil tombol
+    const button = document.querySelector("button");
+
+    // ubah teks tombol saat proses kirim
+    button.innerHTML = "Mengirim...";
+    button.disabled = true;
+
+    let params = {
+      from_name: document.getElementById("name").value,
+      from_email: document.getElementById("email").value,
+      subject: document.getElementById("subject").value,
+      message: document.getElementById("message").value
+    };
+
+    emailjs.send("service_yxt3d45", "template_wybmcaq", params)
+      .then(function(response) {
+        alert("Pesan berhasil dikirim!");
+        console.log("SUCCESS", response);
+
+        // reset form
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("subject").value = "";
+        document.getElementById("message").value = "";
+
+        // kembalikan tombol
+        button.innerHTML = "Kirim Pesan";
+        button.disabled = false;
+      }, function(error) {
+        alert("Gagal mengirim pesan!");
+        console.log("FAILED", error);
+
+         // kembalikan tombol juga jika gagal
+        button.innerHTML = "Kirim Pesan";
+        button.disabled = false;
+      });
+  }
+</script>
+</body>
+</html>
